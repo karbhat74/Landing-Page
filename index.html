@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css" />
+        <title>Bhat's Travel.com</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav__logo"><a href="#">Bhat's Travel.com</a></div>
+            <ul class="nav__links">
+                <li class="link">Home</li>
+                <li class="link">Features</li>
+                <li class="link">About Us</li>
+                <li class="link">Contact Us</li>
+            </ul>
+            <div class="search__box">
+                <input type="text" placeholder="Search" />
+                <i class="ri-search-line"></i>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="container__left">
+                <div class="content">
+                    <h1 style="color: lightgreen;">A Tale of Trucking and Adventurous Pursuits</h1>
+                    <h2 style="color: greenyellow;">Unveils The Wonders Of Our Planet</h2>
+                    <p style="font-size: medium;">Engaging in the trucking world provides individuals with the chance to delve into diverse logistics, experience unique roadside cuisines, and witness the vast landscapes traversed. Navigating the challenges of the trucking industry can also push one's boundaries, fostering the development of valuable skills for life on the road.</p>
+                    <div class="btns">
+                        <button class="read__more">Read More</button>
+                        <button class="our__blogs">Our Blogs</button>
+                    </div>
+                    <div class="chevrons">
+                        <span class="chev__left">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </span>
+                        <span class="chev__right">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 main">
+                <form action="/sign_up" method="POST">
+                    <h2>Passenger Details</h2>
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required/>
+                    <br>
+                    <input type="text" class="box" id="age" name="age" placeholder="Age" required/>
+                    <br>
+                    <input type="text" class="box" id="email" name="email" placeholder="Email" required/>
+                    <br>
+                    <input type="text" class="box" id="phno" name="phno" placeholder="Phone-Number" required/>
+                    <br>
+                    <input type="text" class="box" id="gender" name="gender" placeholder="Gender" required/>
+                    <br>
+                    <h4>Where you want to go?</h4>
+                    <div class="form__group">
+                        <label for="destination">Destination</label>
+                        <input type="text" name="destination" id="destination" placeholder="Enter destination"/>
+                    </div>
+                    <div class="form__group">
+                        <form action="/action_page.php">
+                            <label for="date">Date:</label>
+                            <input type="date" id="birthday" name="birthday">
+                            <button type="submit">Check travel package</button>
+                </form>
+            </div>
+            <div class="bottom__tracker">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </body>
+</html>
